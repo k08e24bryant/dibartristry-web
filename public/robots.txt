@@ -1,0 +1,12 @@
+# robots.txt untuk Dibartristry
+# Mengizinkan semua bot untuk crawl website
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dibartristry.com/sitemap.xml
+
+# Blok halaman yang tidak perlu diindex (optional)
+# Disallow: /api/
+# Disallow: /_next/
