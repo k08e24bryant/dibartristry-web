@@ -10,26 +10,26 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-  title: "Dibartristry | Jasa MUA Solo & Luar Kota (Wisuda, Wedding, Lamaran)",
-  description: "Jasa MUA Solo & Luar Kota terbaik by Dibartristry. Melayani Makeup Wisuda, Lamaran, Prewedding & Wedding. Hasil flawless, tahan lama, & berpengalaman >2 tahun.",
-  keywords: ["MUA Solo", "Makeup Artist Solo", "Makeup Wisuda Solo", "Rias Pengantin Solo", "Dibartristry", "Makeup Lamaran Solo", "Wedding MUA Solo"],
-  authors: [{ name: "Dibartristry" }],
-  creator: "Dibartristry",
-  publisher: "Dibartristry",
+  title: "Dibartistry | Jasa MUA Solo & Luar Kota (Wisuda, Wedding, Lamaran)",
+  description: "Jasa MUA Solo & Luar Kota terbaik by Dibartistry. Melayani Makeup Wisuda, Lamaran, Prewedding & Wedding. Hasil flawless, tahan lama, & berpengalaman >2 tahun.",
+  keywords: ["MUA Solo", "Makeup Artist Solo", "Makeup Wisuda Solo", "Rias Pengantin Solo", "Dibartistry", "Makeup Lamaran Solo", "Wedding MUA Solo"],
+  authors: [{ name: "Dibartistry" }],
+  creator: "Dibartistry",
+  publisher: "Dibartistry",
   formatDetection: {
     telephone: true,
     email: true,
     address: true,
   },
-  metadataBase: new URL('https://dibartristry.com'),
+  metadataBase: new URL('https://dibartistry.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "Dibartristry | MUA Solo Professional",
-    description: "Tampil cantik di hari spesialmu bersama Dibartristry. Makeup Artist berpengalaman untuk wisuda, lamaran, dan pernikahan.",
-    url: "https://dibartristry.com",
-    siteName: "Dibartristry",
+    title: "Dibartistry | MUA Solo Professional",
+    description: "Tampil cantik di hari spesialmu bersama Dibartistry. Makeup Artist berpengalaman untuk wisuda, lamaran, dan pernikahan.",
+    url: "https://dibartistry.com",
+    siteName: "Dibartistry",
     locale: "id_ID",
     type: "website",
     images: [
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
         url: '/images/portofolio-1.jpg',
         width: 1200,
         height: 630,
-        alt: 'Dibartristry Makeup Artist Solo',
+        alt: 'Dibartistry Makeup Artist Solo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dibartristry | MUA Solo Professional',
+    title: 'Dibartistry | MUA Solo Professional',
     description: 'Jasa Makeup Artist Solo untuk segala momen spesialmu',
     images: ['/images/portofolio-1.jpg'],
   },
@@ -77,11 +77,11 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BeautySalon',
-    name: 'Dibartristry',
+    name: 'Dibartistry',
     description: 'Jasa Makeup Artist Profesional di Solo untuk Wisuda, Wedding, dan Lamaran',
-    image: 'https://dibartristry.com/images/portofolio-1.jpg',
-    '@id': 'https://dibartristry.com',
-    url: 'https://dibartristry.com',
+    image: 'https://dibartistry.com/images/portofolio-1.jpg',
+    '@id': 'https://dibartistry.com',
+    url: 'https://dibartistry.com',
     telephone: '+6281393999627',
     priceRange: '$$',
     address: {
@@ -110,8 +110,8 @@ export default function RootLayout({
       closes: '20:00',
     },
     sameAs: [
-      'https://www.instagram.com/dibartristry/',
-      'https://www.tiktok.com/@dibartristry',
+      'https://www.instagram.com/dibartistry/',
+      'https://www.tiktok.com/@dibartistry',
     ],
     areaServed: {
       '@type': 'City',

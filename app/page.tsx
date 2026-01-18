@@ -17,7 +17,7 @@ export default function Home() {
       <nav className="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-gold-200 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
           <h1 className="font-serif text-2xl font-bold bg-gradient-to-r from-gold-500 to-gold-600 bg-clip-text text-transparent tracking-wider">
-            dibartristry
+            dibartistry
           </h1>
           <a 
             href={waLink("Halo Kak, saya mau tanya pricelist makeup...")}
@@ -78,7 +78,7 @@ export default function Home() {
         {/* Ganti src dengan foto model MUA yang paling cantik */}
         <Image 
           src="/images/portofolio-1.jpg" 
-          alt="Makeup Artist Solo Dibartristry - Hasil makeup flawless untuk wisuda dan wedding" 
+          alt="Makeup Artist Solo Dibartistry - Hasil makeup flawless untuk wisuda dan wedding" 
           fill 
           className="object-cover hover:scale-105 transition duration-700"
           priority
@@ -145,7 +145,7 @@ export default function Home() {
               <h3 className="font-serif text-2xl md:text-3xl text-gray-900">Hasil Makeup</h3>
               <p className="text-gray-600 mt-2 text-sm md:text-base">Dikerjakan dengan hati & teknik profesional.</p>
             </div>
-            <a href="https://www.instagram.com/dibartristry/" target="_blank" className="text-primary-600 font-medium hover:text-primary-700 hover:underline flex items-center gap-1 text-sm md:text-base">
+            <a href="https://www.instagram.com/dibartistry/" target="_blank" className="text-primary-600 font-medium hover:text-primary-700 hover:underline flex items-center gap-1 text-sm md:text-base">
               <Instagram size={18}/> Lihat di Instagram
             </a>
           </div>
@@ -156,7 +156,7 @@ export default function Home() {
             <div className="aspect-[3/4] bg-gray-200 rounded-xl overflow-hidden relative group">
                 <Image 
                   src="/images/portofolio-1.jpg" 
-                  alt="Portfolio Makeup Artist Solo - Makeup Wisuda Natural Glowing by Dibartristry" 
+                  alt="Portfolio Makeup Artist Solo - Makeup Wisuda Natural Glowing by Dibartistry" 
                   fill 
                   className="object-cover group-hover:scale-110 transition duration-500"
                   loading="lazy"
@@ -176,7 +176,7 @@ export default function Home() {
             <div className="aspect-[3/4] bg-gray-200 rounded-xl overflow-hidden relative group">
                 <Image 
                   src="/images/portofolio-3.jpg" 
-                  alt="Makeup Lamaran Solo - Rias Pengantin Elegan Modern by Dibartristry" 
+                  alt="Makeup Lamaran Solo - Rias Pengantin Elegan Modern by Dibartistry" 
                   fill 
                   className="object-cover group-hover:scale-110 transition duration-500"
                   loading="lazy"
@@ -200,14 +200,14 @@ export default function Home() {
       {/* --- FOOTER --- */}
       <footer className="bg-primary-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl mb-6">dibartristry</h2>
+          <h2 className="font-serif text-3xl mb-6">dibartistry</h2>
           <div className="flex justify-center gap-6 mb-8">
-            <a href="https://www.instagram.com/dibartristry/" target="_blank" className="hover:text-primary-200 transition">Instagram</a>
-            <a href="https://www.tiktok.com/@dibartristry" target="_blank" className="hover:text-primary-200 transition">TikTok</a>
+            <a href="https://www.instagram.com/dibartistry/" target="_blank" className="hover:text-primary-200 transition">Instagram</a>
+            <a href="https://www.tiktok.com/@dibartistry" target="_blank" className="hover:text-primary-200 transition">TikTok</a>
             <a href={waLink("Halo")} target="_blank" className="hover:text-primary-200 transition">WhatsApp</a>
           </div>
           <p className="text-primary-200 text-sm">
-            &copy; {new Date().getFullYear()} Dibartristry. Melayani Solo & Luar Kota.
+            &copy; {new Date().getFullYear()} Dibartistry. Melayani Solo & Luar Kota.
           </p>
         </div>
       </footer>

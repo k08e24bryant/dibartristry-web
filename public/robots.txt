@@ -1,11 +1,11 @@
-# robots.txt untuk Dibartristry
+# robots.txt untuk Dibartistry
 # Mengizinkan semua bot untuk crawl website
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://dibartristry.com/sitemap.xml
+Sitemap: https://dibartistry.com/sitemap.xml
 
 # Blok halaman yang tidak perlu diindex (optional)
 # Disallow: /api/

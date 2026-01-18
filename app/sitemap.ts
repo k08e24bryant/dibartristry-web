@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://dibartristry.com' // Ganti dengan domain real kamu
+  const baseUrl = 'https://dibartistry.com' // Ganti dengan domain real kamu
   const currentDate = new Date()
 
   return [
