@@ -145,7 +145,7 @@ export default function Home() {
               <h3 className="font-serif text-2xl md:text-3xl text-gray-900">Hasil Makeup</h3>
               <p className="text-gray-600 mt-2 text-sm md:text-base">Dikerjakan dengan hati & teknik profesional.</p>
             </div>
-            <a href="https://www.instagram.com/dibartistry/" target="_blank" className="text-primary-600 font-medium hover:text-primary-700 hover:underline flex items-center gap-1 text-sm md:text-base">
+            <a href="https://www.instagram.com/dibartristry/" target="_blank" className="text-primary-600 font-medium hover:text-primary-700 hover:underline flex items-center gap-1 text-sm md:text-base">
               <Instagram size={18}/> Lihat di Instagram
             </a>
           </div>
@@ -202,8 +202,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="font-serif text-3xl mb-6">dibartistry</h2>
           <div className="flex justify-center gap-6 mb-8">
-            <a href="https://www.instagram.com/dibartistry/" target="_blank" className="hover:text-primary-200 transition">Instagram</a>
-            <a href="https://www.tiktok.com/@dibartistry" target="_blank" className="hover:text-primary-200 transition">TikTok</a>
+            <a href="https://www.instagram.com/dibartristry/" target="_blank" className="hover:text-primary-200 transition">Instagram</a>
+            <a href="https://www.tiktok.com/@dibartristry" target="_blank" className="hover:text-primary-200 transition">TikTok</a>
             <a href={waLink("Halo")} target="_blank" className="hover:text-primary-200 transition">WhatsApp</a>
           </div>
           <p className="text-primary-200 text-sm">

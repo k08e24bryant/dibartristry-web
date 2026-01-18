@@ -110,8 +110,8 @@ export default function RootLayout({
       closes: '20:00',
     },
     sameAs: [
-      'https://www.instagram.com/dibartistry/',
-      'https://www.tiktok.com/@dibartistry',
+      'https://www.instagram.com/dibartristry/',
+      'https://www.tiktok.com/@dibartristry',
     ],
     areaServed: {
       '@type': 'City',
