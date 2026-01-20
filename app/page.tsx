@@ -93,14 +93,62 @@ export default function Home() {
   </div>
 </section>
 
+{/* --- WHY CHOOSE US / ABOUT --- */}
+<section className="py-12 md:py-16 px-4 bg-white">
+  <div className="max-w-6xl mx-auto">
+    <div className="text-center mb-8 md:mb-12">
+      <h3 className="font-serif text-3xl md:text-4xl text-gray-900 mb-4">Kenapa Pilih Kami?</h3>
+      <div className="w-24 h-1 bg-primary-500 mx-auto rounded-full"></div>
+    </div>
+    
+    <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+      {/* Card 1: Experience */}
+      <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-primary-50 to-white border border-primary-200">
+        <div className="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-serif text-2xl shadow-lg">
+          2+
+        </div>
+        <h4 className="font-serif text-xl text-gray-900 mb-2">Berpengalaman</h4>
+        <p className="text-gray-600 text-sm">
+          Aktif sejak <strong>Oktober 2023</strong> melayani berbagai momen spesial dengan hasil yang memuaskan.
+        </p>
+      </div>
+
+      {/* Card 2: Partnership */}
+      <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-primary-50 to-white border border-primary-200">
+        <div className="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-lg shadow-lg">
+          ✓
+        </div>
+        <h4 className="font-serif text-xl text-gray-900 mb-2">Trusted Partner</h4>
+        <p className="text-gray-600 text-sm">
+          Bekerja sama dengan fotografer profesional <strong>IkatMemori</strong> & <strong>RintikBahagia FG</strong>.
+        </p>
+      </div>
+
+      {/* Card 3: High-End Products */}
+      <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-primary-50 to-white border border-primary-200">
+        <div className="w-16 h-16 bg-gradient-to-br from-gold-400 to-gold-500 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-2xl shadow-lg">
+          ✨
+        </div>
+        <h4 className="font-serif text-xl text-gray-900 mb-2">Produk Premium</h4>
+        <p className="text-gray-600 text-sm">
+          Menggunakan produk high-end: <strong>Sephora, MAC, Rare Beauty, Embryolisse</strong> & local products terbaik.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 {/* --- SERVICES (Pricelist) - PREMIUM VERSION --- */}
       <section className="py-16 md:py-24 bg-gradient-to-b from-white via-primary-50/30 to-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12 md:mb-16">
             <h3 className="font-serif text-3xl md:text-4xl text-gray-900 mb-4">Layanan Spesial</h3>
             <div className="w-24 h-1 bg-primary-500 mx-auto rounded-full mb-4"></div>
-            <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+            <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base mb-3">
               Setiap sentuhan dirancang untuk menonjolkan karakter unikmu. Pilih paket yang sesuai dengan momen bahagiamu.
+            </p>
+            <p className="text-primary-700 font-medium text-sm">
+              📅 <strong>Minimal Booking H-3</strong> (3 hari sebelum acara)
             </p>
           </div>
           
